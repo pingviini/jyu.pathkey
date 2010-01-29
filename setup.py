@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.2'
+version = open('jyu/pathkey/version.txt').read().strip('\n')
 
 setup(name='jyu.pathkey',
       version=version,
@@ -25,6 +25,7 @@ setup(name='jyu.pathkey',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'z3c.autoinclude',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
