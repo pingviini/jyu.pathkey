@@ -1,0 +1,33 @@
+<configure xmlns="http://namespaces.zope.org"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="jyu.pathkey">
+
+    <browser:page
+        name="pathkey-form"
+        for="*"
+        class=".pathkeyForm.PathkeyForm"
+        permission="cmf.ModifyPortalContent"
+        />
+
+    <browser:page
+        name="pathkey-requester"
+        for="*"
+        class=".pathkeyForm.PathkeyRequest"
+        permission="zope2.View"
+        />
+        
+    <browser:page
+        for="..interfaces.IPathkey"
+        name="pathkey-controlpanel"
+        class=".controlpanel.PathkeyControlPanelForm"
+        permission="cmf.ManagePortal"
+        />
+
+    <browser:page
+        name="pathkey-list"
+        for="*"
+        class=".pathkeyList.PathkeyListView"
+        permission="cmf.ModifyPortalContent"
+        />
+
+</configure>

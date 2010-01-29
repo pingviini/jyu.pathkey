@@ -1,0 +1,23 @@
+Changelog
+=========
+
+1.0.2 - Released 20.11.2009
+---------------------------
+
+* Fixed encoding problem with pathkey requester
+
+
+1.0.1 - Released 18.11.2009
+---------------------------
+
+* Fixed missing legend text from pathkey requester template.
+
+
+1.0 - Released 8.11.2009
+------------------------
+
+* Content owner can set and remove pathkey for any content (removing happens by saving empty pathkey)
+* Added pathkey-list view for content owner to see where pathkeys have been set (by owner). 
+* Added functional doctests
+
+

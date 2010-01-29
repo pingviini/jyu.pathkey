@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="jyu.pathkey">
+<body>
+
+<div class="gainLayout" id="pathkey-list" metal:fill-slot="main">
+    <tal:main-macro metal:define-macro="main">
+
+        <div tal:replace="structure provider:plone.abovecontenttitle" />
+        
+        <h1 class="documentFirstHeading">
+            Folders where pathkey has been set by you
+        </h1>
+
+        <div tal:replace="structure provider:plone.belowcontenttitle" />
+        
+        <div tal:define="brains view/searchPathkeyItems">
+            <tal:block tal:repeat="item brains">
+                <a href="" tal:attributes="href item/getURL" tal:content="item/getURL" />
+            </tal:block>
+        </div>
+        
+        <div class="visualClear" />
+
+    </tal:main-macro>
+    
+    <div metal:use-macro="here/document_actions/macros/document_actions">
+        Document actions (print, sendto etc)
+    </div>
+</div>
+
+   
+</body>
+</html>
+

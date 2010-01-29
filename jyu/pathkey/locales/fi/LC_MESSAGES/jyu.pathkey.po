@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jyu.pathkey\n"
+"POT-Creation-Date: 2009-09-29 13:43+0000\n"
+"PO-Revision-Date: 2009-10-20 12:16+0200\n"
+"Last-Translator: Jukka Ojaniemi <jukka.ojaniemi@jyu.fi>\n"
+"Language-Team: Finnish <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fi\n"
+"Language-Name: Suomeksi\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: jyu.pathkey\n"
+
+#. Default: "Add pathkey"
+#: ./profiles/default/actions.xml
+msgid "Add pathkey"
+msgstr "Lisää polkuavain"
+
+#: ./browser/pathkeyForm.py:58
+msgid "Added a new pathkey."
+msgstr "Uusi polkuavain lisätty"
+
+#: ./browser/pathkeyForm.py:68
+msgid "Content will be shown with the correct pathkey"
+msgstr "Kansion sisältö näytetään oikealla polkuavaimella"
+
+#: ./browser/pathkeyForm.py:19
+msgid "If you want to protect contents of this folder, set a pathkey."
+msgstr "Aseta polkuavain, jos haluat suojata tämän kansion sisällön."
+
+#. Default: "Info"
+#: ./browser/set_pathkey.pt:12
+msgid "Info"
+msgstr "Tiedoksi"
+
+#: ./browser/pathkeyForm.py:54
+msgid "Modification of the pathkey succeeded."
+msgstr "Polkuavaimen muuttaminen onnistui"
+
+#: ./browser/pathkeyForm.py:18
+msgid "Pathkey"
+msgstr "Anna polkuavain"
+
+#. Default: "Restricts access to content without proper path key."
+#: ./profiles/default/actions.xml
+msgid "Restricts access to content without proper path key."
+msgstr "Estää pääsyn sisältöön ilman polkuavainta."
+
+#: ./browser/pathkeyForm.py:51
+msgid "Succesfully deleted the pathkey."
+msgstr "Polkuavain poistettu onnistuneesti."
+
+#. Default: "You are adjusting the pathkey for a default view in a container. To adjust them for the entire container, ${go_here}."
+#: ./browser/set_pathkey.pt:18
+msgid "help_pathkey_page_default_page"
+msgstr "Olet asettamassa polkuavainta kansion oletusnäkymälle. ${go_here} asettaaksesi polkuavaimen koko kansiolle."
+
+#. Default: "go here"
+#: ./browser/set_pathkey.pt:18
+msgid "help_sharing_go_here"
+msgstr "Mene tänne"
+
+#. Default: "Content will be shown with the correct pathkey."
+#: ./browser/pathkey_requester.pt:18
+msgid "pathkey_message"
+msgstr "Kansion sisältö näytetään oikealla polkuavaimella."
+
+#. Default: "Access restricted with pathkey"
+#: ./browser/pathkey_requester.pt:15
+msgid "pathkey_restrict"
+msgstr "Pääsy sisältöön estetty polkuavaimella"
+

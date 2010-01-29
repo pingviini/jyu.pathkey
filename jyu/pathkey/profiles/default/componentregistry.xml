@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<componentregistry>
+ <adapters/>
+ <utilities>
+  <utility
+     interface="jyu.pathkey.interfaces.IPathkey"
+     object="portal_pathkey"/>
+ </utilities>
+</componentregistry>
