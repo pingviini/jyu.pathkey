@@ -7,4 +7,4 @@ eggs
 *.mo
 *.egg-info
 .installed.cfg
-
+.mr.developer.cfg

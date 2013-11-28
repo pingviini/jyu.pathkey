@@ -14,7 +14,7 @@ setup(name="jyu.pathkey",
       description="Restricts access to Plone content with pathkey",
       long_description="%s\n%s" % (
           open("README.rst").read(),
-          open("HISTORY.rst").readl()),
+          open("HISTORY.rst").read()),
       classifiers=[
           "Framework :: Plone",
           "Framework :: Plone :: 3.2",
