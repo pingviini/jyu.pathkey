@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+
+    <permission name="jyu.pathkey: Manage Path Keys" acquire="True">
+      <role name="Owner"/>
+      <role name="Manager"/>
+      <role name="Contributor"/>
+      <role name="Editor"/>
+    </permission>
+
+  </permissions>
+
+</rolemap>

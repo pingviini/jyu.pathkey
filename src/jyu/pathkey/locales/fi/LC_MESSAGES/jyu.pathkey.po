@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jyu.pathkey\n"
+"POT-Creation-Date: 2013-04-10 10:03+0000\n"
+"PO-Revision-Date: 2010-10-20 17:01+0200\n"
+"Last-Translator: Jukka Ojaniemi <jukka.ojaniemi@jyu.fi>\n"
+"Language-Team: Finnish <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fi\n"
+"Language-Name: Suomeksi\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: jyu.pathkey\n"
+
+#: ./browser/set_pathkey.pt:85
+msgid "<strong>Go to ${parent_pathkey_form} to set a pathkey for the entire container.</strong>"
+msgstr "<string>Mene ${parent_pathkey_form} asettaaksesi polkuavain koko kansiolle.</strong>"
+
+#: ./browser/pathkeyForm.py:149
+msgid "Added a new pathkey and related information about pathkey owner."
+msgstr "Uusi polkuavain ja siihen liittyvät tiedot lisätty."
+
+#: ./browser/controlpanel.py:25
+msgid "Additional English content"
+msgstr "Polkuavaimen englanninkielinen sisältö"
+
+#: ./browser/controlpanel.py:21
+msgid "Additional Finnish content"
+msgstr "Polkuavaimen suomenkielinen sisältö"
+
+#: ./interfaces.py:25
+msgid "Additional description for pathkey requester form"
+msgstr "Tarkempi kuvaus-/ohjeteksti polkuavainlomakkeelle."
+
+#: ./browser/pathkey_requester.pt:144
+msgid "Because you have permissions to modify content you can see the pathkey which is: <strong>${pk}</strong>"
+msgstr "Koska sinulla on oikeudet muokata sisältöä, näet kansioon asetetun polkuavaimen: <strong>${pk}</strong>"
+
+#: ./browser/pathkeyForm.py:53
+msgid "Delete pathkey"
+msgstr "Poista polkuavain"
+
+#: ./browser/pathkeyForm.py:54
+msgid "Deletes the pathkey from this item after sending the form."
+msgstr "Poistaa polkuavaimen tästä kohteesta lomakkeen lähettämisen jälkeen"
+
+#: ./browser/pathkeyForm.py:202
+msgid "Enter the pathkey"
+msgstr "Anna polkuavain"
+
+#: ./browser/controlpanel.py:35
+msgid "Here you can customize the contents of the form requesting pathkey."
+msgstr "Täällä voit muokata polkuavainta kysyvän lomakkeen ohjetekstiä."
+
+#: ./browser/pathkeyForm.py:39
+msgid "If you want to protect contents of this folder, set a pathkey."
+msgstr "Aseta polkuavain, jos haluat suojata tämän kansion sisällön."
+
+#: ./interfaces.py:18
+msgid "Legend text"
+msgstr "Polkuavaimen legend-teksti"
+
+#: ./browser/controlpanel.py:29
+msgid "List all pathkeys"
+msgstr "Listaa kaikki polkuavaimet"
+
+#: ./browser/pathkeyForm.py:143
+msgid "Modification of the pathkey succeeded."
+msgstr "Polkuavaimen muuttaminen onnistui"
+
+#: ./browser/pathkeyForm.py:44
+msgid "Name of the person who knows the pathkey."
+msgstr "Polkuavaimen haltijan nimi."
+
+#. Default: "Pathkey"
+#: ./browser/pathkeyForm.py:38
+#: ./profiles/default/actions.xml
+#: ./profiles/upgrades/1to2/actions.xml
+msgid "Pathkey"
+msgstr "Polkuavain"
+
+#: ./browser/set_pathkey.pt:98
+msgid "Pathkey has already been set to a object in upper level (${acquired_pathkey_url}). Are you certain you want to set nested pathkeys?"
+msgstr "Polkuavain on jo asetettu ylemmällä tasolla olevaan kohteeseen (${acquired_pathkey_url}). Oletko varma, että haluat asettaa sisäkkäisen polkuavaimen?"
+
+#: ./browser/pathkeyForm.py:43
+msgid "Pathkey owner"
+msgstr "Polkuavaimen haltija"
+
+#: ./browser/pathkey_requester.pt:133
+msgid "Pathkey owner: ${pk_owner}"
+msgstr "Polkuavaimen haltija: ${pk_owner}"
+
+#: ./browser/pathkeyForm.py:48
+msgid "Pathkey owners email"
+msgstr "Polkuavaimen omistajan sähköpostiosoite"
+
+#: ./browser/controlpanel.py:33
+msgid "Pathkey settings"
+msgstr "Polkuavaimen asetukset"
+
+#: ./browser/pathkeyForm.py:29
+msgid "Required input is missing."
+msgstr "Vaadittavat tiedot puuttuvat."
+
+#: ./profiles/default/actions.xml
+#: ./profiles/upgrades/1to2/actions.xml
+msgid "Restrict access to Plone content without proper pathkey."
+msgstr "Estää pääsyn Plonen sisältöön ilman oikeaa polkuavainta"
+
+#: ./browser/set_pathkey.pt:167
+msgid "Save"
+msgstr "Tallenna"
+
+#: ./browser/pathkeyForm.py:139
+msgid "Succesfully deleted the pathkey and related information."
+msgstr "Polkuavain ja siihen liittyvät tiedot poistettu."
+
+#: ./browser/pathkeyForm.py:134
+msgid "Succesfully deleted the pathkey."
+msgstr "Polkuavain poistettu onnistuneesti."
+
+#: ./browser/pathkeyForm.py:49
+msgid "This will be visible so that users know where to ask correct pathkey."
+msgstr "Sähköpostiosoite näytetään polkuavainlomakkeella, jotta käyttäjät tietävät keneltä polkuavainta voi kysyä."
+
+#: ./browser/set_pathkey.pt:77
+msgid "Warning"
+msgstr "Varoitus"
+
+#: ./browser/pathkey_requester.pt:137
+msgid "You can ask the correct pathkey by sending email to ${pk_email}."
+msgstr "Voit kysyä oikeaa polkuavainta sähköpostilla osoitteesta ${pk_email}."
+
+#: ./interfaces.py:19
+msgid "You can give custom legend text"
+msgstr "Voit muokata lomakkeen legend-osassa näkyvää tekstiä"
+
+#. Default: "You are trying to adjust pathkey for a containers default view (${url})."
+#: ./browser/set_pathkey.pt:81
+msgid "help_pathkey_page_default_page"
+msgstr "Olet asettamassa polkuavainta kansion oletusnäkymänä toimivalle sivulle (${url})."
+
+#: ./browser/set_pathkey.pt:85
+msgid "parent folders pathkey-form"
+msgstr "kansion polkuavaimen lisäyssivulle"
+
+#: ./browser/pathkey_requester.pt:115
+msgid "send"
+msgstr "lähetä"
+

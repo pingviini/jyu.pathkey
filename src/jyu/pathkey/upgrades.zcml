@@ -1,0 +1,42 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:upgradeStep
+      title="upgrade1to2"
+      description="This update brings new Path Key permission so this step updates role mappings."
+      profile="jyu.pathkey:default"
+      source="*" destination="2" sortkey="1"
+      handler="jyu.pathkey.upgradesteps.upgrade1to2"
+     />
+
+  <genericsetup:registerProfile
+     name="upgrade1to2"
+     title="Upgrade jyu.pathkey"
+     directory="profiles/upgrades/1to2"
+     description="This update brings new Path Key permission so this step updates role mappings."
+     provides="Products.GenericSetup.interfaces.EXTENSION"
+     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+     />
+
+  <genericsetup:upgradeDepends
+    title="Removes title from portal_css registration."
+    description=""
+    source="2"
+    destination="3"
+    profile="jyu.pathkey:default"
+    import_steps="cssregistry"
+    purge="False"
+    run_deps="False"
+    />
+
+  <genericsetup:upgradeDepends
+      source="3" destination="5" sortkey="5"
+      title="Upgrade jyu.pathkey 3 to 5"
+      description="Re-import CSS"
+      profile="jyu.pathkey:default"
+      import_steps="cssregistry"
+      />
+  <!-- step is from 3 to 5 to avoid conflict due to bug in GS -->
+
+</configure>

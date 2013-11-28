@@ -1,0 +1,155 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-04-10 10:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: jyu.pathkey\n"
+
+#: ./browser/set_pathkey.pt:85
+msgid "<strong>Go to ${parent_pathkey_form} to set a pathkey for the entire container.</strong>"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:149
+msgid "Added a new pathkey and related information about pathkey owner."
+msgstr ""
+
+#: ./browser/controlpanel.py:25
+msgid "Additional English content"
+msgstr ""
+
+#: ./browser/controlpanel.py:21
+msgid "Additional Finnish content"
+msgstr ""
+
+#: ./interfaces.py:25
+msgid "Additional description for pathkey requester form"
+msgstr ""
+
+#: ./browser/pathkey_requester.pt:144
+msgid "Because you have permissions to modify content you can see the pathkey which is: <strong>${pk}</strong>"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:53
+msgid "Delete pathkey"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:54
+msgid "Deletes the pathkey from this item after sending the form."
+msgstr ""
+
+#: ./browser/pathkeyForm.py:202
+msgid "Enter the pathkey"
+msgstr ""
+
+#: ./browser/controlpanel.py:35
+msgid "Here you can customize the contents of the form requesting pathkey."
+msgstr ""
+
+#: ./browser/pathkeyForm.py:39
+msgid "If you want to protect contents of this folder, set a pathkey."
+msgstr ""
+
+#: ./interfaces.py:18
+msgid "Legend text"
+msgstr ""
+
+#: ./browser/controlpanel.py:29
+msgid "List all pathkeys"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:143
+msgid "Modification of the pathkey succeeded."
+msgstr ""
+
+#: ./browser/pathkeyForm.py:44
+msgid "Name of the person who knows the pathkey."
+msgstr ""
+
+#: ./browser/pathkeyForm.py:38
+#: ./profiles/default/actions.xml
+#: ./profiles/upgrades/1to2/actions.xml
+msgid "Pathkey"
+msgstr ""
+
+#: ./browser/set_pathkey.pt:98
+msgid "Pathkey has already been set to a object in upper level (${acquired_pathkey_url}). Are you certain you want to set nested pathkeys?"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:43
+msgid "Pathkey owner"
+msgstr ""
+
+#: ./browser/pathkey_requester.pt:133
+msgid "Pathkey owner: ${pk_owner}"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:48
+msgid "Pathkey owners email"
+msgstr ""
+
+#: ./browser/controlpanel.py:33
+msgid "Pathkey settings"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:29
+msgid "Required input is missing."
+msgstr ""
+
+#: ./profiles/default/actions.xml
+#: ./profiles/upgrades/1to2/actions.xml
+msgid "Restrict access to Plone content without proper pathkey."
+msgstr ""
+
+#: ./browser/set_pathkey.pt:167
+msgid "Save"
+msgstr ""
+
+#: ./browser/pathkeyForm.py:139
+msgid "Succesfully deleted the pathkey and related information."
+msgstr ""
+
+#: ./browser/pathkeyForm.py:134
+msgid "Succesfully deleted the pathkey."
+msgstr ""
+
+#: ./browser/pathkeyForm.py:49
+msgid "This will be visible so that users know where to ask correct pathkey."
+msgstr ""
+
+#: ./browser/set_pathkey.pt:77
+msgid "Warning"
+msgstr ""
+
+#: ./browser/pathkey_requester.pt:137
+msgid "You can ask the correct pathkey by sending email to ${pk_email}."
+msgstr ""
+
+#: ./interfaces.py:19
+msgid "You can give custom legend text"
+msgstr ""
+
+#. Default: "You are trying to adjust pathkey for a containers default view (${url})."
+#: ./browser/set_pathkey.pt:81
+msgid "help_pathkey_page_default_page"
+msgstr ""
+
+#: ./browser/set_pathkey.pt:85
+msgid "parent folders pathkey-form"
+msgstr ""
+
+#: ./browser/pathkey_requester.pt:115
+msgid "send"
+msgstr ""
+

@@ -1,0 +1,30 @@
+
+.pathkeyEmbed html {
+    overflow: hidden;
+}
+
+.pathkeyEmbed body#embeded, .pathkeyEmbed #portal-columns {
+    background-image: none;
+}
+
+.pathkeyEmbed #portal-column-content {
+
+    /* stolen from jyu.m3.media player.css */
+    background-color: #dddddd;
+    padding: 15px 15px 5px 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+
+    padding: 1em;
+
+}
+
+.pathkeyEmbed .embed-content {
+    padding: 15px 15px 5px 15px;
+    background-color: white !important;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+
+}

@@ -1,0 +1,47 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="jyu.pathkey">
+
+  <includeDependencies package="." />
+  <permission
+    id="jyu.pathkey.ManagePathkeys"
+    title="jyu.pathkey: Manage Path Keys" />
+
+
+  <five:registerPackage package="." initialize=".initialize" />
+  <i18n:registerTranslations directory="locales" />
+  <include package=".browser" />
+
+  <subscriber
+    handler=".utils.insertPostTraversalHook"
+    for="*
+         zope.app.publication.interfaces.IBeforeTraverseEvent"
+  />
+
+  <subscriber handler=".aftertraverse.pathkey_request_body_cleanup" />
+
+  <gs:registerProfile
+        name="default"
+        title="JYU Pathkey Requester"
+        directory="profiles/default"
+        description="Protects folders with pathkey"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        i18n:attributes="title description"
+  />
+  
+  <cmf:registerDirectory name="pathkey_templates"/>
+  <!--<cmf:registerDirectory name="skins" directory="skins" recursive="True" />-->
+
+  <browser:resourceDirectory
+    name="jyu.pathkey"
+    directory="static"
+   />
+
+  <include file="upgrades.zcml" />
+
+</configure>
